@@ -18,8 +18,8 @@ const Navbar = () => {
       <div>
         <AiOutlineMenu size={20} />
       </div>
-      <div className="fixed left-0 top-0 w-[60%] border-r border-r-gray-900">
-        <ul>
+      <div className="fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 m-4">
+        <ul className="uppercase pt-24 text-green-600">
           <li className="p-4">Home</li>
           <li className="p-4">Company</li>
           <li className="p-4">Resources</li>
